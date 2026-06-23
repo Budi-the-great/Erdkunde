@@ -1,0 +1,125 @@
+.banner img {
+    width: 50px;
+    height: 50px;
+    float: left; 
+    margin-left:5px;
+    margin-right: 5px;
+    margin-top: 0.2%;
+}
+.banner span {
+    vertical-align:top;
+}
+.banner .ban2 span {
+    vertical-align:top;
+}
+h1 {
+    background-color: rgb(127, 168, 255);
+    border-bottom: 5px solid black;
+}
+#header-1 {
+    font-size: 50%;
+}
+#header-2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    margin-top: -10px;
+    border-bottom: 1px solid black;   
+    font-size: 150%;
+}
+header {
+    margin-top: -21px;
+    margin-bottom: -10px;
+}
+
+h4 {
+    border-bottom: 1px solid black;
+}
+
+nav {
+    margin-left: 101%;
+    margin-right: 105%;
+    margin-top: -100px
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(224, 224, 224);
+}
+#color-1 {
+    background-image: linear-gradient(#a5e2b5, #93cfbc);
+    border-left: 3px solid black;   
+    border-right: 3px solid black;   
+}
+
+main {
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 24px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+th {
+    font-size: 80%;
+    width: 15%;
+    background-color: gray;
+    align-items: center;
+    border: 2px solid black;
+}
+
+td {
+    padding: 5px;
+    font-size: 80%;
+    width: 15%;
+    background-color: darkgray;
+    align-content: center;
+    border: 1px solid black;
+}
+
+.table-container {
+    border: 3x solid black;
+}
+
+.Bold {
+    font-weight: bold;
+}
+footer {
+    margin-top: -16px;
+    background-color: rgb(153, 153, 153);
+    padding: 2px;
+    padding-bottom: 150px;
+    background-attachment: bottom;
+    margin-bottom: -10px;
+    border-left: 3px solid black;   
+    border-right: 3px solid black;  
+}
+
+
+
+@media screen and (max-width:700px) {
+    nav {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    margin-top: 0
+    }
+}
+
+@media (max-width:1000px){
+    .table-container {
+    overflow-x: auto;
+    width: 100%;
+    margin-top: 30px;
+    }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+}
